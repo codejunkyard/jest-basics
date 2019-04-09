@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabComponent renders correctly 1`] = `
+Array [
+  <nav
+    className="nav nav-tabs"
+    onKeyDown={[Function]}
+    role="tablist"
+  >
+    <a
+      aria-controls={null}
+      aria-selected={true}
+      className="nav-item nav-link active"
+      data-rb-event-key="0"
+      href="#"
+      id={null}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+    >
+      Test
+    </a>
+    <a
+      aria-controls={null}
+      aria-selected={false}
+      className="nav-item nav-link"
+      data-rb-event-key="1"
+      href="#"
+      id={null}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Test
+    </a>
+  </nav>,
+  <div
+    className="tab-content"
+  >
+    <div
+      aria-hidden={false}
+      aria-labelledby={null}
+      className="fade tab-pane active show"
+      id={null}
+      role="tabpanel"
+    >
+      <p
+        title="Test"
+      >
+        Test
+      </p>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby={null}
+      className="fade tab-pane"
+      id={null}
+      role="tabpanel"
+    >
+      <p
+        title="Test"
+      >
+        Test
+      </p>
+    </div>
+  </div>,
+]
+`;

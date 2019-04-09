@@ -1,28 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container } from "react-bootstrap";
+import TabComponent from "./components/TabComponent";
+import StopWatch from "./components/StopWatch";
 
-class App extends Component {
+export default class App extends React.PureComponent {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Container style={{ marginTop: "75px" }}>
+        <TabComponent>
+          <StopWatch title="Stop Watch" />
+          <p title="Test">Panel content - Test</p>
+        </TabComponent>
+      </Container>
     );
   }
 }
-
-export default App;
